@@ -33,7 +33,7 @@ Public Class Main
     Shared CLI_MODE As Boolean = False
 
     'Characters
-    Shared strBAK As String = "\"                           'Backslash symbol
+    Shared strBAK As String = Path.DirectorySeparatorChar   'Backslash symbol
     Shared strQUOT As String = Chr(34)                      'Quote Symbol
     Shared strNL As String = Environment.NewLine            'Newline symbol
 
